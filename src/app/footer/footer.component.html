@@ -1,0 +1,18 @@
+<table class="footer">
+    <tr>
+        <td>Novi kontakt:</td>
+    </tr>
+    <tr>
+        <td>
+            <input id="name" type="text" placeholder="Upisi ime" #name>  
+        </td>
+        <td>
+            <input id="number" type="text" placeholder="Upisi broj" #number [(ngModel)]="insertNumber">
+        </td>
+        <td>
+            <span id="add-btn" (click)="this.contactsService.addItem(name.value, number.value)">Sacuvaj</span>
+        </td>
+    </tr>
+    <tr *ngIf="checkNumber()">Uneti broj nije ispravan!</tr>
+       
+</table>

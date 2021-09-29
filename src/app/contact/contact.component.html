@@ -1,0 +1,9 @@
+<div class="todo-item">
+    <div class="todo-item-content">
+        <span class="data">{{contact.name}}</span>
+    </div>
+    <div class="todo-item-content">
+        <span class="data">{{contact.number}}</span>
+    </div>
+    <span class="delete-btn" title="delete" (click)="this.contactService.deleteItem(contact)"></span>
+</div>

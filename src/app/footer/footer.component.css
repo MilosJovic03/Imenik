@@ -1,0 +1,15 @@
+#add-btn {
+    padding-right: 14px;
+    font-weight  : bold;
+    cursor       : pointer;
+    color        : grey;
+}
+
+#add-btn:hover {
+    color: rgb(58, 58, 58);
+}
+
+.footer {
+    border: 1px solid #e8e8e8;
+    padding: 10px;
+}
